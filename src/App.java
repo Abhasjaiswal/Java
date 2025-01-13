@@ -52,5 +52,61 @@ public class App {
       System.out.println("Grade D");
     }
 
+    int day = 3;
+    switch (day) {
+      case 1:
+        System.out.println("Monday");
+        break;
+      case 2:
+        System.out.println("Tuesday");
+        break;
+      case 3:
+        System.out.println("Wednesday");
+        break;
+      case 4:
+        System.out.println("Thursday");
+        break;
+      case 5:
+        System.out.println("Friday");
+        break;
+      case 6:
+        System.out.println("Saturday");
+        break;
+      case 7:
+        System.out.println("Sunday");
+        break;
+      default:
+        System.out.println("Invalid Day");
+    }
+
+    // Loops
+    // for, while, do while
+
+    for (int k = 0; k < 5; k++) {
+      // condition check
+      System.out.println("Value of k is " + k);
+      // increment or decrement
+    }
+
+    // difference between while and do while
+    // while - first condition check then execute
+    // do while - first execute then condition check
+
+    int k = 0;
+    while (k < 5) {
+      System.out.println("Value of k is " + k);
+      k++;
+    }
+
+    int l = 0;
+    do {
+      System.out.println("Value of l is " + l);
+      l++;
+    } while (l < 5);
+
+    // Jump Statements
+    // break, continue, return
+
+
   }
 }
