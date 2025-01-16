@@ -105,8 +105,38 @@ public class App {
     } while (l < 5);
 
     // Jump Statements
-    // break, continue, return
+    //break, continue, return
+    {
+      int ss=0;
+    }
+    system.out.println(ss); // error
+                          
+
+    int m=0;
+    for(m<5;m++){
+      if(m==3){
+        break;
+      }
+      System.out.println("Value of m is " + m);
+    }
+
+    System.out.println("Value of m is " + m);
 
 
-  }
+ 
+        boolean i = true; 
+
+        label1: {
+            label2: {
+                label3: {
+                    System.out.println("In label3 scope ... before the break");
+                    if (i) break label2;
+                    System.out.println("In label3 scope ... after the break");
+                }
+                System.out.println("In label3 scope ... after the break wrt label2");
+            }
+            System.out.println("In label3 scope ... after the break wrt label2");
+        }
+    }
 }
+
